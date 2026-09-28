@@ -1,0 +1,52 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Linter and type checker
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# MASE runtime data & logs
+data/*.db
+data/*.sqlite
+data/*.db-wal
+data/*.db-shm
+logs/*.jsonl
+logs/*.log
+*.log
+benchmarks/results/
+.worktrees/
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
